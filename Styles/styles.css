@@ -14,7 +14,7 @@ h1 {
 }
 
 
-img {
+main img {
     width: 150px;
     height:auto;
     border: 1px solidblack;
@@ -23,5 +23,31 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
+
+main {
+    max-width: 1080px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid rgb(136 7 63 / 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    }
+
+    aside img {
+        width: 200px;
+        height:auto;
+    }
+
+    footer {
+        margin-top: 15px;
+        border-top: 1px solid 000;
+        text-align: center;
+
+    }
